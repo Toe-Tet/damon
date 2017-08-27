@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'GLYPHICONS Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+[v-cloak] {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    color: #607d8b;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    float: left;
+}
+
+input[type="search"] {
+	display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    color: #607d8b;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+a.current{
+    background-color: #20a8d8 !important;
+    background: #20a8d8 !important;
+    border-color: #20a8d8 !important;
+    color: #fff !important;
+}
+li.breadcrumb-item.active {
+    background: none !important;
+    padding: 0px;
+    border: 0px;
+    color: #000 !important;
+}
+
+li.disabled {
+    background-color: #fff !important;
+    background: #fff !important;
+    border: 1px solid #ddd;
+    color: #167495 !important;
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    line-height: 1.25;
+}
+
+.disabled li a:hover {
+    color: #167495;
+    text-decoration: none;
+    background-color: #cfd8dc;
+    border-color: #ddd;
+}
+
+li.active>span{
+    background-color: #20a8d8 !important;
+    background: #20a8d8 !important;
+    border: 1px solid #ddd;
+    color: #fff !important;
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    line-height: 1.25;
+}
+
+.close.fileinput-remove {
+    cursor: pointer;
+}
+
+thead {
+    background-color: #eceff1;
+    border-bottom: 1px solid #cfd8dc;
+}
+
+table.dataTable.no-footer, table.dataTable.no-top{
+    border-bottom: 0px solid #111 !important;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 18px;
+    border-bottom: 1px solid #cfd8dc !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    background: #fff !important;
+    box-shadow: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate {
+	color: #fff !important;
+}
+
+table#roles-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0em !important;
+}
+
+
+/* Datatable CSS need To change Add table id name */
+table#roles-table, table#users-table, table#posts-table, table#orders-table {
+    display: inline-table !important;
+    width: 100% !important;
+}
+
+
+.gallery {
+    color: #424242;
+    padding-left: 30px;
+    background-color: #fff;
+}
+  .img-list {
+    overflow: hidden;
+    display: -webkit-inline-box;
+    margin-bottom: 10px;
+  }
+
+  .col-lg-12.media-data{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+  }
+
+  img.media-item.img-responsive {
+    display: inline-table;
+    width: 100%;
+    height: 255px !important;
+}
+.modal-title {
+    margin: 0px;
+}
+
+.images img{
+    height: 100%;
+    width: 95%;
+    border: 1px solid #ECF0F5;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+.file-preview {
+    background-color: #fff;
+}
+
+.form-control-sm[readonly] {
+    background-color: #cfd8dc;
+    opacity: 1; }
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.receive-btn {
+    margin-right: 5px;
+}
+
+.inventory-title {
+    margin-bottom: 20px;
+}
+
+.inventory-text {
+    font-size: 1rem;
+    line-height: 28px;
+    color: #5f6468;
+}
+
+@media (min-width: 500px) {
+    img.media-item.img-responsive {
+        height: 160px;
+    }
+}
+
+@media (max-width: 490px) {
+    .img-list {
+    overflow: hidden;
+    display: -webkit-inline-box;
+    margin-bottom: 10px;
+    width: 50%;
+    }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 500px;
+    margin: 30px auto; }
+  .modal-sm {
+    max-width: 300px; } }
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 800px; } }
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 95%; } }
+
+@media only screen and (max-width: 590px) {
+    table#roles-table, table#users-table, table#posts-table {
+        display: block !important;
+    }
+}
+

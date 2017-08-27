@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.table-body {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.navbar-inverse {
+    background-color: #1D628B !important;
+    border-color: #1D628B !important;
+}
+
+.logo-text{
+	color: #fff !important;
+}
+
+.logo-text:hover{
+	color: white !important;
+}
+
+.logo-logout{
+	color: #fff !important;
+}
+
+.logo-logout:hover{
+	color: #E7E7DE !important;
+}
+
+.side-nav {
+	width: 200px !important;
+	margin-left: 0px !important;
+	padding-left: 0px !important;
+    float: none !important;
+}
+.list-group-item {
+	color : #3097D1 !important;
+	background-color: #222222 !important;	
+    border: 0px !important;
+}
+
+.list-group-item.active {
+	background-color: #000000 !important;
+    border-color: #000000 !important;
+
+}
